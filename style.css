@@ -1,3 +1,39 @@
 body{
-    
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+    margin: 0;
+    font-size: 20px;
+}
+section{}
+.similar-part {
+    width: 39%;
+    float: left;
+    padding: 30px;
+    margin-left: 7%;
+}
+.myselft-text {
+    margin-top: 100px;
+}
+.myselft-text h1{
+    font-size: 90px;
+    margin:0;
+}
+.myselft-text span{
+    color: #00AC73;
+}
+.myselft-text p{
+    width: 60%;
+    margin: 30px 0;
+    margin-bottom: 60px;
+}
+.similar-part img{
+    width: 75%;
+}
+.similar-part a.button{
+    text-decoration: none;
+    padding: 25px 65px;
+    color: #fff;
+    background: #00ac73;
+    border-radius: 10px;
+
 }
