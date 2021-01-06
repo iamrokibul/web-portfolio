@@ -2,38 +2,131 @@ body{
     font-family: 'Raleway', sans-serif;
     color: #000;
     margin: 0;
-    font-size: 20px;
+    font-size: 15px;
 }
-section{}
-.similar-part {
-    width: 39%;
+section{
+    width: 100%;
+    overflow: hidden;
+    padding: 50px 0;
+}
+.myself-area{
     float: left;
+    margin-left: 8%;
+
+}
+.myself-text {
+    width: 45%;
     padding: 30px;
-    margin-left: 7%;
+    
 }
-.myselft-text {
-    margin-top: 100px;
-}
-.myselft-text h1{
-    font-size: 90px;
+.myself-text h1{
+    font-size: 55px;
     margin:0;
 }
-.myselft-text span{
+.hightlighted{
     color: #00AC73;
 }
-.myselft-text p{
-    width: 60%;
+.myself-text p{
     margin: 30px 0;
     margin-bottom: 60px;
 }
-.similar-part img{
-    width: 75%;
+.myself-pic{
+    width: 30%;
 }
-.similar-part a.button{
+.myself-pic img{
+    width: 100%;
+}
+a.button{
     text-decoration: none;
-    padding: 25px 65px;
+    padding: 20px 55px;
     color: #fff;
     background: #00ac73;
-    border-radius: 10px;
+    border-radius: 5px;
 
+}
+.about-area h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.projects-area{
+    width: 100%;
+    text-align: center;
+}
+.projects-area h2{
+    margin-bottom: 70px;
+    font-size: 40px;
+}
+.single-project{
+    text-align: left;
+    width: 25%;
+    margin-left: 4.5%;
+    float: left;
+    box-shadow: 0px 1px 12px #888888;
+    padding: 15px;
+    border-radius: 5px;
+}
+.single-project img{
+    width: 100%;
+}
+.single-project h3{
+    margin: 0;
+    margin-top: 15px;
+
+}
+.single-project p{
+    margin: 10px 0;
+}
+
+.call-to-action{
+    width: 60%;
+    background-image: url(images/call-to-action.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin: 0 auto;
+    color: #fff;
+	border-radius: 25px;
+}
+.call-to-action h1 {
+    float: left;
+    margin-top: 75px;
+    margin-left: 60px;
+    font-size: 42px;
+}
+.call-to-action a.button {
+    float: right;
+    margin-top: 80px;
+    margin-right: 55px;
+    padding: 18px 25px;
+}
+.skill-area{
+    text-align: center;
+}
+.skill-area h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.single-skill{
+    width: 60%;
+    margin: 0 auto;
+}
+.single-skill a.button{
+    margin: 10px;
+    display: inline-block;
+}
+.footer {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer h2{
+    margin: 0;
+    font-size: 40px;
+}
+.footer img{
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+    margin-top: 20px;
 }
